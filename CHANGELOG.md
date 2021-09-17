@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [10.1.1]
-### Uncategorized
-- bump @metamask/controllers to v16.0.0 ([#12133](https://github.com/MetaMask/metamask-extension/pull/12133))
-- Fix gas api overcalling ([#12069](https://github.com/MetaMask/metamask-extension/pull/12069))
+### Added
+- [#12020](https://github.com/MetaMask/metamask-extension/pull/12020): Adds "Enable smart contract data" step to Ledger Instructions on transaction confirm screen
+
+### Fixed
+- [#12069](https://github.com/MetaMask/metamask-extension/pull/12069): Fixes bug where suggestedGasFee api is called excessively. 
 
 ## [10.1.0]
 ### Added
